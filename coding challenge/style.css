@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body{
+
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#blend{
+
+    background: rgba(0, 0, 0, 0.5);
+    background-position: center;
+    border-radius: 10px;
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 3%;
+    width: 800px;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+img{
+    width: 20%;
+    margin: auto;
+}
+
+header{
+    color: lawngreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: lawngreen;
+    background-position: center;
+    width: 85%;
+    height: 55%;
+    padding: 7px;
+    margin: auto;
+    text-align: center;
+}
+
+main{
+    text-align: left;
+    margin-left: 8%;
+    margin-top: 1%;
+    color: white;
+}
+
+main > div{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+span{
+    font-size: larger;
+}
+
+p{
+    font-size: small;
+    font-style: italic;
+}
+
+#caricaGino22{
+    width: 250px;
+    height: 20px;
+    background: red;
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+  #caricaMike24{
+    width: 480px;
+    height: 20px;
+    background: lightblue;
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+  #caricaFede154{
+    width: 150px;
+    height: 20px;
+    background: violet;
+    padding: 10px;
+    border-radius: 25px;
+  }
